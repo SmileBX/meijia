@@ -1,0 +1,160 @@
+body,h1,h2,h3,h4,h5,h6,ul,p{
+    margin:0;
+    padding:0
+}
+/*注册登录第一个div样式*/
+#product>div:first-child{
+    background:#84C639;
+    padding:1rem  0 1rem 10rem;
+    font-size: 0.95rem;
+}
+#product>div:first-child a{
+    color:#fff;
+    border-right:1px solid #000;
+    text-decoration: none;
+    padding-right:3rem;
+}
+#product>div:first-child :nth-child(2){
+    padding-left:3rem;
+}
+/*列表和导航图片*/
+#product div.product_list ul{
+    list-style: none;
+    width:20%;
+    background: #fbfbfb;
+}
+#product>div.product_list{
+    display: flex;
+}
+#product>div.product_list>ul>li{
+    border-bottom: 1px solid #e3e3e3;
+    padding:0.4rem 0 0.4rem 2.5rem;
+}
+#product>div.product_list>ul>li:first-child{
+    border-top:1px solid #B58F62;
+}
+
+#product>div.product_list>ul>li:hover{
+    background:#84c639;
+    cursor: pointer;
+}
+#product>div.product_list>ul>li:hover .my_white{
+    background:#84c639;
+    color:#fff;
+}
+#product>div.product_list a{
+    text-decoration: none;
+    color:#000;
+    font-size: 0.95rem;
+}
+#product>div.product_list>ul>li b{
+    border:5px solid transparent;
+    border-top-color: #000;
+    display: inline-block;
+    margin-top:0.8rem;
+}
+#product div.product_list ul li ul{
+    position:absolute;
+    background:#fff;
+    width:10rem;
+    padding:0.5rem 0.5rem;
+    top:2.6rem;
+    display: none;
+    z-index:10;
+}
+#product .my_position{
+    position: relative;
+}
+#product ul.my_detail_hide li:hover a{
+    color:red;
+    text-decoration: none;
+}
+/*导航列表右侧的大图*/
+#product .my_right{
+    width:80%;
+}
+#product .my_right .my_banner2{
+    width:100%;
+    height:300px;
+    background:url("../images/27.jpg") no-repeat;
+    background-size:cover;
+}
+#product .my_banner2 div{
+    padding:5rem 0 2rem 5rem;
+}
+#product .my_banner2 p{
+    color:#fff;
+    padding:0.6rem 0 1.5rem 0;
+}
+#product .my_banner2 a{
+    padding:0.5rem 2rem;
+    margin:0 auto;
+    background:#FA1818;
+    color:#fff;
+}
+
+/*热门品牌列表图*/
+div.my_pro{
+    background: #f9f9f9;
+}
+div.my_pro h2{
+    text-align: center;
+    padding-top:5rem;
+}
+div.my_pro_bg{
+    width:100%;
+    margin:0 auto;
+    margin-top:3rem;
+    box-sizing: border-box;
+}
+div.pro-main{
+    width:100%;
+    display: block;
+    box-sizing: border-box;
+    margin-top:2rem;
+}
+div.my_out:not(:first-child){
+    margin-left:0.5rem;
+}
+div.my_out{
+    box-sizing: border-box;
+    width:24.1%;
+    display: inline-block;
+    border:1px solid #c3c3c3;
+    padding:0.5rem;
+
+    background:#fff;
+    position:relative;
+}
+div.my_out img:last-child{
+     position:absolute;
+     top:0;
+     left:0;
+ }
+div.my_out img.my_tag{
+    position:absolute;
+    top:-0.3rem;
+    left:11rem;
+}
+div.my_border1{
+    width:100%;
+    border:1px solid #e6e6e6;
+    padding:0.5rem;
+    box-sizing: border-box;
+}
+div.my_border_child{
+    box-sizing: border-box;
+    width:80%;
+    text-align: center;
+    padding:1rem 0;
+    margin:0 auto;
+}
+div.my_border_child img{
+    width:70%;
+    vertical-align: center;
+}
+div.my_border_child p,div.my_border_child h6{
+    margin:1rem 0;
+    text-align: left;
+    font-size: 0.95rem;
+}

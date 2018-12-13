@@ -1,0 +1,218 @@
+body,h1,h2,h3,h4,h5,h6,ul,p{
+    margin:0;
+    padding:0
+}
+/*注册登录第一个div样式*/
+#detail>div:first-child{
+    background:#84C639;
+    padding:1rem  0 1rem 10rem;
+    font-size: 0.95rem;
+}
+#detail>div:first-child a{
+    color:#fff;
+    border-right:1px solid #000;
+    text-decoration: none;
+    padding-right:3rem;
+}
+#detail>div:first-child :nth-child(2){
+    padding-left:3rem;
+}
+/*列表和导航图片*/
+#detail div.detail_foor1 ul{
+    list-style: none;
+    width:20%;
+    background: #fbfbfb;
+}
+#detail>div.detail_foor1{
+    display: flex;
+}
+#detail>div.detail_foor1>ul>li{
+    border-bottom: 1px solid #e3e3e3;
+    padding:0.4rem 0 0.4rem 2.5rem;
+}
+#detail>div.detail_foor1>ul>li:first-child{
+    border-top:1px solid #B58F62;
+}
+
+#detail>div.detail_foor1>ul>li:hover{
+    background:#84c639;
+    cursor: pointer;
+}
+#detail>div.detail_foor1>ul>li:hover .my_white{
+    background:#84c639;
+    color:#fff;
+}
+#detail>div.detail_foor1 a{
+    text-decoration: none;
+    color:#000;
+    font-size: 0.95rem;
+}
+#detail>div.detail_foor1>ul>li b{
+    border:5px solid transparent;
+    border-top-color: #000;
+    display: inline-block;
+    margin-top:0.8rem;
+}
+#detail div.detail_foor1 ul li ul{
+    position:absolute;
+    background:#fff;
+    width:10rem;
+    padding:0.5rem 0.5rem;
+    top:2.6rem;
+    display: none;
+    z-index:10;
+}
+#detail .my_position{
+    position: relative;
+}
+#detail ul.my_detail_hide li:hover a{
+    color:red;
+    text-decoration: none;
+}
+/*导航列表右侧的大图*/
+#detail .my_banner1{
+    width:80%;
+    background:url("../images/12.jpg") no-repeat;
+    background-size:contain;
+    position: relative;
+}
+#detail .my_banner1>div{
+    background:#fff;
+    width:45%;
+    text-align: center;
+    color:red;
+    font-size:2rem ;
+    font-family:"仿宋";
+    margin:0 auto;
+    opacity: 0.85;
+    position:absolute;
+    top:28%;
+    left:25%;
+}
+#detail .my_banner1>div>span{
+    display: block;
+    font-size:1.5rem;
+    font-family: 华文仿宋;
+    color: #ff1127;
+    margin-top:-1rem;
+}
+@keyframes change {
+    0%{opacity: 0.8}
+    100%{opacity: 0}
+}
+#detail p.my_change{
+    position:absolute;
+    background:url("../images/img-sp.png") no-repeat 1rem -6.8rem;
+    top:-2rem;
+    right:-2rem;
+    width:5rem;
+    height:5rem;
+    animation: change .8s linear infinite;
+}
+#detail .my_banner1>div>p.show{
+    opacity: 1;
+}
+/*放大镜详情*/
+#detail div.detail_center{
+    width:60%;
+    height:80%;
+    margin:0 auto;
+    margin-bottom:4rem;
+}
+#detail div.detail_center>h3{
+    text-align: center;
+    margin:1rem
+}
+#detail div.detail_center>div{
+    width:100%;
+    margin-top:3rem;
+}
+#detail div.detail_center div.my_img {
+    border:2px solid #f4f4f4;
+    width:80%;
+}
+#detail div.detail_center>div>div:last-child{
+    padding-left:1.5rem;
+}
+#detail div.detail_center>div>div:first-child>img{
+    padding:1.5rem;
+    width:100%;
+}
+@media screen and (min-width: 992px){
+    #detail div.detail_center>div{
+        display: flex;
+    }
+}
+@media screen and (max-width:677px){
+    #detail div.detail_center>div>div:last-child{
+        padding-left:1.5rem;
+        width:100%;
+    }
+}
+#detail div.detail_center>div>div:last-child>p:nth-child(2){
+    margin-top:1.5rem;
+}
+#detail div.detail_center>div>div:last-child>p:nth-child(3){
+    margin:0.5rem 0;
+    color: #8e8e8e;
+}
+#detail div.detail_center>div>div:last-child>p:nth-child(4){
+    margin:1.5rem 0;
+    font-weight: bold;
+}
+#detail div.detail_center>div>div:last-child>p:nth-child(4)>s{
+    font-weight: normal;
+    margin-left:0.8rem;
+}
+
+/*热门品牌列表图*/
+div.my_pro{
+    background: #f9f9f9;
+    padding:5rem;
+}
+div.my_pro_bg{
+    width:80%;
+    margin:0 auto;
+}
+div.my_pro>h2{
+    text-align: center;
+    font-weight: bolder;
+}
+div.my_pro h4{
+    margin:2rem 0;
+}
+div.pro-main{
+    display: flex;
+    justify-content: space-between;
+}
+div.my_out{
+    border:1px solid #c3c3c3;
+    padding:0.5rem;
+    margin:0.5rem;
+    background:#fff;
+    position:relative;
+}
+div.my_out img:last-child{
+     position:absolute;
+     top:0;
+     left:0;
+ }
+div.my_out img.my_tag{
+    position:absolute;
+    top:-0.3rem;
+    left:11rem;
+}
+div.my_border1{
+    border:1px solid #e6e6e6;
+    padding:0.5rem;
+}
+div.my_border_child{
+    width:13rem;
+    text-align: center;
+    padding:1rem 0;
+}
+div.my_border_child p,div.my_border_child h6{
+    margin:1rem 0;
+    text-align: left;
+    font-size: 0.95rem;
+}

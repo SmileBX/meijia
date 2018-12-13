@@ -1,0 +1,50 @@
+/*引入的网页头部样式*/
+.my_header{
+    width:100%;
+    height:12rem;  
+}
+.my_header .my_sector{
+    z-index:999;
+}
+/*引入网页底部的样式*/
+.my_footer{
+    width:100%;
+    height:38rem;
+}
+/*hr红色分割线*/
+.my_hr_small{
+    width:6rem;
+    height:0.1rem;
+    background:red;
+}
+.my_outline{
+    outline:none;
+}
+/*小字*/
+.my_small{
+    font-size:0.9rem;
+}
+/*鼠标悬停时去掉a下划线*/
+.my_decoration:hover{
+    text-decoration: none;
+}
+.my_allbg{
+    background: #84C639;
+}
+/*按钮的样式*/
+.my_btn{
+    padding:0.5rem 2rem;
+    margin:0 auto;
+    background:#FA1818;
+    color:#fff;
+}
+.my_btn:hover{
+    color:#fff;
+    text-decoration: none;
+    background:#84c639;
+}
+/*大红色背景*/
+.my_bg_danger{
+    background:red
+}
+

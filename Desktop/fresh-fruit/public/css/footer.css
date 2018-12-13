@@ -1,0 +1,26 @@
+.my_foot_color{
+    background:#212121
+}
+.my_slide{
+    margin:3rem auto;
+}
+.my_style:before{
+    content:"";
+    display:table;
+}
+.my_foot_style ul li a{
+    color:#999;
+    font-size:15px;
+}
+.my_foot_style ul li a:before{
+    content:"> ";
+    color:#fff;
+    font-size:20px;
+}
+.my_foot_style ul li a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.my_foot_style ul:not(:last-child) h5{
+  padding-left:0.5rem;
+}

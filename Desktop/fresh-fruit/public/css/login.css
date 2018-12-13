@@ -1,0 +1,111 @@
+body,h1,h2,h3,h4,h5,h6,ul,p{
+    margin:0;
+    padding:0
+}
+/*注册登录第一个div样式*/
+#login>div:first-child{
+    background:#84C639;
+    padding:1rem  0 1rem 10rem;
+    font-size: 0.95rem;
+}
+#login>div:first-child a{
+    color:#fff;
+    border-right:1px solid #000;
+    text-decoration: none;
+    padding-right:3rem;
+}
+#login>div:first-child :nth-child(2){
+    padding-left:3rem;
+}
+/*登录小框的样式*/
+#login div.login_lg{
+    border:1px solid #666;
+    width:25rem;
+    height:22rem;
+    margin:3rem auto;
+    border-top:5px solid red;
+}
+#login div.login_text{
+    padding:2rem;
+}
+#login input{
+    display: block;
+    width:100%;
+    padding:0.5rem;
+    margin:1.5rem 0;
+    outline-color:#bbb;
+    font-size: 0.95rem;
+}
+h1{
+    text-align: center;
+    margin-top:2rem;
+}
+div.login_text a{
+    color:#fff;
+    background:#84c639;
+    display: block;
+    width:100%;
+    text-decoration: none;
+    text-align: center;
+    padding:0.5rem;
+}
+#login>div.login_lg>:last-child{
+    background: #343434;
+    display: block;
+    padding:0.8rem;
+    text-decoration: none;
+    color:#fff;
+    text-align: center;
+    font-size: 1.05rem;
+    margin-top:0.8rem;
+}
+/*中间会员卡部分样式*/
+div.my_login{
+    background: #fcfcfc;
+}
+#login .login_center{
+    width:85%;
+    margin:0 auto;
+    padding:0.5rem 1rem;
+}
+div.login_agent{
+    margin:2rem 0;
+    color: #a09094;
+}
+/*会员卡页面*/
+#login div.login_cad ul{
+    list-style: none;
+    width:30%;
+    padding:0;
+    text-align: center;
+}
+#login div.login_cad{
+    display: flex;
+    justify-content:space-around;
+    margin:0 auto;
+}
+#login div.login_cad ul>li>img{
+    width:100%;
+}
+#login div.login_cad ul>li:nth-child(2){
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding:0.5rem 0;
+}
+#login div.login_cad ul>li:last-child{
+    font-size: 0.9rem;
+    color: #8ca0af;
+}
+.login_p{
+    text-align: center;
+    font-size: 0.9rem;
+    color: #505050;
+    margin:3rem auto;
+}
+.login_p>span{
+    font-weight: bold;
+}
+
+div.login_agent>p{
+    font-size:1.2rem;
+}

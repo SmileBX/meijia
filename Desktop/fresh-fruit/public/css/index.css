@@ -1,0 +1,238 @@
+body,h5{
+    margin:0;
+    padding:0
+}
+.my_body{
+    width:100%;
+    overflow: hidden;
+}
+/*灰色背景*/
+.my_gray{
+    background:#f5f5f5;
+}
+b{
+    border:5px solid transparent;
+    border-top-color:#000;
+    display: inline-block;
+    margin-top:0.8rem;
+}
+/*li的字体颜色*/
+.my_dark{
+    color:#000;
+}
+/*鼠标悬停li变背景色*/
+.my_bg:hover{
+    background: #84C639;
+    cursor: pointer;
+}
+.my_bg:hover .my_dark{
+    background: #84C639;
+    color:#fff;
+}
+/*第一个li的上边框*/
+.my_borderTop{
+    border-top:1px solid #B58F62;
+}
+/*下拉菜单父元素的定位*/
+.my_par{
+    position:relative;
+}
+/*下拉菜单的样式*/
+.my_hide{
+    width:10rem;
+    height:5rem;
+    background:#fff;
+    z-index:10;
+    position:absolute;
+    top:2.8rem;
+    border:1px solid #ddd;
+    display:none;
+}
+/*设置下拉菜单的 字体颜色以及大小样式*/
+.my_menu_style{
+    font-size:0.9rem;
+    color:black
+}
+/*鼠标悬停时菜单字体变色*/
+.my_menu_style:hover{
+    color:red;
+    text-decoration: none;
+}
+/*轮播*/
+#banner{
+    height:500px;
+    width:1600px;
+    position:relative;
+}
+#banner>li>img{
+    position:absolute;
+    top:0;
+    left:0;
+    opacity:0;
+    transition: all .5s linear;
+}
+#banner>li>img.show{
+    opacity:1
+}
+/*特价定位字体*/
+.my_relative{
+    position:relative;
+}
+/*第一张图的定位*/
+.my_abso1{
+    position:absolute;
+    top:1rem;
+    right:2rem;
+}
+.my_abso2{
+    position:absolute;
+    top:0.8rem;
+    left:2rem;
+}
+.my_abso3{
+    position:absolute;
+    bottom:1rem;
+    left:2.5rem;
+}
+/*特价普通大字*/
+.my_font_big{
+    font-size:1.5rem;
+}
+/*绿色字体*/
+.my_font_color{
+    color:#84C639
+}
+.my_red{
+    background: red;
+}
+#floor1 .my_circle{
+    background:red;
+    width:5rem;
+    height:5rem;
+    border-radius:50%;
+    border:1px solid red;
+    font-weight: bold;
+    padding-top:1.2rem;
+    color:#fff;
+    font-size:1.6rem;
+    margin-top:1rem;
+}
+/*2楼热门优惠*/
+.hot_img1{
+    position:absolute;
+    right:1.5rem;
+    top:-0.2rem;
+}
+.hot_img2{
+    position:absolute;
+    top:0;
+    left:0;
+}
+/*内层div宽度*/
+.my_bg_width{
+   width:15rem;
+}
+
+.card li a{
+    color: #000;
+    font-size:0.95rem;
+    padding:0 1rem;
+}
+/*热门鼠标变色*/
+.card li a:hover{
+    color:#84c639;
+    text-decoration: none;
+}
+ul.card li{
+    padding:0.3rem 0.3rem;
+}
+ul.my_index_off li a:before{
+    content:"√";
+    color:#84c639;
+    font-size:20px;
+}
+#fot div img{
+    width:100%;
+}
+@keyframes my_change {
+    0%{opacity: 0.6}
+    100%{opacity: 0}
+}
+h5 span:first-child{
+    color:red;
+    font-weight: bold;
+    animation:my_change 0.8s linear infinite;
+}
+h5 span:nth-child(2){
+    background:url("../images/img-sp.png") no-repeat 1px -111px;
+    padding: 1rem 1.5rem;
+    margin-left: 1rem;
+}
+/*热门优惠*/
+.my_border{
+    border:1px solid #bebebe;
+}
+/*特价区按钮样式过渡效果*/
+.my_bg_width:hover .my_btn{
+    background:#84c639;
+    transition:all .5s ;
+}
+
+/*热门产品图片里面的两个字体样式*/
+ 
+#fot>div:nth-child(2){
+    position:relative;
+}
+#fot>div:nth-child(2)>#my_logo{
+    position:absolute;
+    background:#84c639;
+    top:2rem;
+    right:2.5rem;
+    width:9rem;
+    height:2.5rem;
+}
+#fot>div:nth-child(2)>div>h5{
+    position:absolute;
+    top:20%;
+    left:15%;
+}
+#fot>div:nth-child(2)>div>h5:first-child{
+    color:#fff;
+    z-index: 1000;
+}
+#fot>div:nth-child(2)>div>h5:last-child{
+    color:#000;
+    
+}
+#fot>div:nth-child(2)>:nth-child(4) {
+    position: absolute;
+    color: #fff;
+    background: red;
+    border-radius: 50%;
+    bottom: 1.5rem;
+    left: 1.2rem;
+    padding: 2.3rem 0.3rem;
+}
+
+@keyframes rotateInUpLeft {
+    from {
+      -webkit-transform-origin: left bottom;
+      transform-origin: left bottom;
+      -webkit-transform: rotate3d(0, 0, 1, 45deg);
+      transform: rotate3d(0, 0, 1, 45deg);
+      opacity: 0;
+    }
+  
+    to {
+      -webkit-transform-origin: left bottom;
+      transform-origin: left bottom;
+      -webkit-transform: none;
+      transform: none;
+      opacity: 1;
+    }
+  }
+  .rotateInUpLeft {
+    animation: rotateInUpLeft 0.3s;
+  }
+
+

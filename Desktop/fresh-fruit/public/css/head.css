@@ -1,0 +1,57 @@
+.my_outline{
+    outline:none;
+}
+div.head{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0
+}
+/*今日特惠背景色*/
+.my_bag{
+    background:#84C639
+}
+.my_bgimage{
+    background:url("../images/img-sp.png") no-repeat 6px  1px #FA1818;
+}
+/*鼠标悬停去掉a标记下划线*/
+.my_underline:hover{
+    text-decoration: none;
+}
+.my_mt{
+    margin-top:0.1rem;
+}
+/*小三角图标*/
+.my_style{
+    border:5px solid transparent;
+    border-top-color:#fff;
+    display: inline-block;
+    float:right;
+    margin-top:0.8rem;
+}
+/*电话图标*/
+.fa-phone:before{
+    content:"\f095"
+}
+/*邮件图标*/
+.fa-email:before{
+    content:"\f003"
+}
+.my_bgimage2{
+    background: url("../images/img-sp.png") no-repeat 48px 15px;
+}
+/*商店的字体*/
+.my_size{
+    font-size:3.5rem;
+}
+/*杂货的小字*/
+.my_small_size{
+    font-size:1.5rem;
+    font-weight:normal;
+    margin-bottom:-1.5rem;
+}
+/*logo高度*/
+.my_height{
+    height:110px;
+}
+
